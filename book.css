@@ -2,6 +2,8 @@
 html, body {
 	font-family: Georgia, serif;
 	font-size: 16px;
+	line-height: 1.3em;
+	color: #111;
 	max-width: 36em;
 	margin-left: auto;
 	margin-right: auto;
@@ -11,10 +13,28 @@ html, body {
 a {
 	color: #08f;
 	text-decoration: none;
+	transition: 250ms;
+}
+
+a:hover {
+	color: #08f8
 }
 
 h3 {
 	margin-top: 3em;
+}
+
+h4 {
+	font-weight: normal;
+	font-style: italic;
+	color: #1118;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+h4 + h2 {
+	margin-top: 0;
+	margin-bottom: 2em;
 }
 
 p {
@@ -25,27 +45,27 @@ p {
 }
 
 p.pillar {
-	/*font-style: italic;*/
+	font-size: 1.2em;
 	line-height: 1.618em;
-	color: #408b;
-	padding: 0 2em;
 }
 
-hr.pillar {
-	color: #80f8;
+hr {
+	text-align: center;
+	width: 61.8%;
+	border: 0;
+	border-top: 1px dashed #1113;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	border: 2px dotted;
-	border-style: none none dotted;
 }
 
 a.fn {
+	position: relative;
 	font-size: 0.618em;
-	padding: 0 0.2em;
 	color: #048;
 	background-color: #08f4;
 	text-decoration: none;
-	vertical-align: super;
+	top: -0.6em;
+	padding: 0 0.2em;
 }
 
 img {
@@ -57,21 +77,21 @@ img {
 
 note {
 	display: block;
-	font-family: monospace;
+	font-family: Menlo, Monaco, "Lucida Console", monospace;
 	font-size: 0.75em;
-	color: #0006;
+	color: #1116;
 	background-color: #8881;
 	margin-bottom: 1.333em;
 	padding: 1em;
-	border-left: 2px solid #0002;
+	border-left: 2px solid #1112;
 }
 
 quote {
 	display: block;
-	color: #0009;
+	color: #1118;
 	margin-bottom: 1em;
 	padding-left: 1em;
-	border-left: 2px dotted #0004;
+	border-left: 2px solid #1112;
 }
 
 ibid {
@@ -87,11 +107,12 @@ ibid {
 say {
 	display: block;
 	/*text-decoration: underline;*/
-	font-family: monospace;
+	font-family: Menlo, Monaco, "Lucida Console", monospace;
 	font-size: 0.8em;
+	line-height: 1.25em;
 	margin-bottom: 1em;
 	padding-left: 1em;
-	border-left: 2px solid #0004;
+	border-left: 2px solid #1114;
 }
 
 say.time {
