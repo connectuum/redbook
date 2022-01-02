@@ -104,6 +104,11 @@ idea {
 	border-left: 2px solid #0484;
 }
 
+idea quote {
+	color: #0486;
+	border-left: 2px solid #0482;
+}
+
 topics {
 	display: block;
 	font-style: italic;
