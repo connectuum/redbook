@@ -104,6 +104,23 @@ idea {
 	border-left: 2px solid #0484;
 }
 
+topics {
+	display: block;
+	font-style: italic;
+	margin-top: -1em;
+	margin-bottom: 2em;
+}
+
+topic {
+	display: block;
+	font-style: italic;
+	color: #fff;
+	background-color: #1118;
+	margin-bottom: 1em;
+	padding: 0.5em 1em;
+}
+
+
 say {
 	display: block;
 	/*text-decoration: underline;*/
