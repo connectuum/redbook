@@ -71,6 +71,7 @@ a.fn {
 img {
 	width: 100%;
 	margin-bottom: 1em;
+	background-color: #1111;
 }
 
 /*-----*/
@@ -159,6 +160,12 @@ say.self {
 	color: #666;
 	text-decoration-color: #666;
 	border-left-color: #666;
+}
+
+say.soul {
+	color: #80a;
+	text-decoration-color: #80a;
+	border-left-color: #80a;
 }
 
 hi {
