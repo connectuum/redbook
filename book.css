@@ -82,6 +82,7 @@ note {
 	font-size: 0.75em;
 	color: #1116;
 	background-color: #8881;
+	margin-left: 2px;
 	margin-bottom: 1.333em;
 	padding: 1em;
 	border-left: 2px solid #1112;
@@ -90,6 +91,7 @@ note {
 quote {
 	display: block;
 	color: #1118;
+	margin-left: 2px;
 	margin-bottom: 1em;
 	padding-left: 1em;
 	border-left: 2px solid #1112;
@@ -100,6 +102,7 @@ idea {
 	font-size: 0.8em;
 	color: #0488;
 	background-color: #08f1;
+	margin-left: 2px;
 	margin-bottom: 1.125em;
 	padding: 1em;
 	border-left: 2px solid #0484;
@@ -107,6 +110,7 @@ idea {
 
 idea quote {
 	color: #0486;
+	margin-left: 2px;
 	border-left: 2px solid #0482;
 }
 
@@ -133,6 +137,7 @@ say {
 	font-family: Menlo, Monaco, "Lucida Console", monospace;
 	font-size: 0.8em;
 	line-height: 1.25em;
+	margin-left: 2px;
 	margin-bottom: 1em;
 	padding-left: 1em;
 	border-left: 2px solid #1114;
